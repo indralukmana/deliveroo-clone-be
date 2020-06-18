@@ -18,8 +18,17 @@
       "type": "richtext"
     },
     "categories": {
-      "collection": "category",
-      "via": "restaurants"
+      "via": "restaurants",
+      "collection": "category"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
