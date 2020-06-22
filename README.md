@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+Headless CMS GraphQL backend for my experiment. 
